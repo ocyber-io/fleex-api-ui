@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e5e5e5;
+}
+
+.immerdiate_content:nth-child(odd) {
+  background-color: #F7F8FA;
+}
+
+.select_protocol, .codec_select_input {
+  background-image: url("../assets/Icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: top 13px right 16px;
+}
+
+.codec_select_input {
+  background-position: top 0px right 5px;
+}
+
+.select_protocol_output {
+  background-image: url("../assets/Icons/arrow-down-white.svg");
+  background-repeat: no-repeat;
+  background-position: top 13px right 16px;
+}
+
+/*.udp_input:focus-visible {*/
+/*  outline: red;*/
+/*}*/
+
+/*::placeholder {*/
+/*  color: #738BA9;*/
+/*}*/
+
+/*.udp_label::before {*/
+/*  content: "";*/
+/*  height: 5px;*/
+/*  !*background: orange;*!*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  top: 10px;*/
+/*  width: 100%;*/
+/*  z-index: -1;*/
+/*}*/
+
+/*.udp_input:focus + .udp_label, .filled {*/
+/*  top: -8px;*/
+/*  background: white;*/
+/*  font-size: 12px;*/
+/*  padding: 2px 4px;*/
+/*}*/
+
+/*.udp_input::placeholder {*/
+/*  font-size: 16px;*/
+/*  opacity: 0;*/
+/*  transition: all .3s;*/
+/*}*/
+
+/*.udp_input:focus::placeholder {*/
+/*  opacity: 1;*/
+/*  animation-delay: .2s;*/
+/*}*/
