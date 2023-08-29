@@ -21,6 +21,7 @@ const Source = (props: Props): JSX.Element => {
       url: '',
       nic: ''
     },
+    validateOnBlur: true,
     onSubmit: (values) => {
       console.log('Source response >>', values)
     },

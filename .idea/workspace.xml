@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f7daa358-c850-413b-afd1-ef8d49683d79" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/src/Modals/Encoder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/Modals/Encoder.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/src/Modals/Output.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/Modals/Output.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/src/Modals/Source.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/Modals/Source.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/src/Validators/EncoderValidator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/Validators/EncoderValidator.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1693289535052" duration="335000" />
       <workItem from="1693289978779" duration="317000" />
       <workItem from="1693290385285" duration="56000" />
-      <workItem from="1693290644748" duration="381000" />
+      <workItem from="1693290644748" duration="5505000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1693288764038</created>

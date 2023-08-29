@@ -23,6 +23,7 @@ const Output = (props: Props): JSX.Element => {
     onSubmit: (values) => {
       console.log('Values', values)
     },
+    validateOnBlur: true,
     validate: FormikValidator.validator(OutputValidator)
   })
   const handleStreamChange = (event: ChangeEvent<HTMLSelectElement>): void => {

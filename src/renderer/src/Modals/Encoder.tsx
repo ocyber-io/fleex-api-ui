@@ -16,10 +16,10 @@ const Encoder = (props: Props): JSX.Element => {
     initialValues: {
       encoding: EncodingEnum.copy,
       source: [],
-      audioBitrate: null,
-      videoBitrate: null,
-      width: null,
-      height: null,
+      audioBitrate: '',
+      videoBitrate: '',
+      width: '',
+      height: '',
       codecVideo: '',
       codecAudio: ''
     },
@@ -90,7 +90,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Audio Bitrate
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="audioBitrate"
                           id="audioBitrate"
                           placeholder="0"
@@ -112,7 +112,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Bitrate
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="videoBitrate"
                           id="videoBitrate"
                           placeholder="0"
@@ -134,7 +134,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Width
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="width"
                           id="width"
                           placeholder="0"
@@ -156,7 +156,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Height
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="height"
                           id="height"
                           placeholder="0"
@@ -236,7 +236,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Audio Bitrate
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="audioBitrate"
                           id="audioBitrate"
                           placeholder="0"
@@ -258,7 +258,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Bitrate
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="videoBitrate"
                           id="videoBitrate"
                           placeholder="0"
@@ -280,7 +280,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Width
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="width"
                           id="width"
                           placeholder="0"
@@ -302,7 +302,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Height
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="height"
                           id="height"
                           placeholder="0"
@@ -382,7 +382,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Audio Bitrate
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="audioBitrate"
                           id="audioBitrate"
                           placeholder="0"
@@ -404,7 +404,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Bitrate
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="videoBitrate"
                           id="videoBitrate"
                           placeholder="0"
@@ -426,7 +426,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Width
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="width"
                           id="width"
                           placeholder="0"
@@ -448,7 +448,7 @@ const Encoder = (props: Props): JSX.Element => {
                           Video Height
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           name="height"
                           id="height"
                           placeholder="0"

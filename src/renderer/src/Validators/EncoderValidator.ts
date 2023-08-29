@@ -19,10 +19,10 @@ export class EncoderValidator {
   @IsNotEmpty({ message: 'source should not be empty' })
   source: string[]
 
-  @IsNumber()
+  @IsString()
   @IsOptional()
   @IsNotEmpty({ message: 'audioBitrate must be a number conforming to the specified constraints' })
-  // @ValidateIf((object: EncoderValidator, value: number) => {
+  // @ValidateIf((object: EncoderValidator, value: string) => {
   //   return (
   //     !!value &&
   //     (object.encoding === EncodingEnum.copy ||
@@ -30,12 +30,12 @@ export class EncoderValidator {
   //       object.encoding === EncodingEnum.nvidia)
   //   )
   // })
-  audioBitrate: number
+  audioBitrate: string
 
-  @IsNumber()
+  @IsString()
   @IsOptional()
   @IsNotEmpty({ message: 'videoBitrate must be a number conforming to the specified constraints' })
-  // @ValidateIf((object: EncoderValidator, value: number) => {
+  // @ValidateIf((object: EncoderValidator, value: string) => {
   //   return (
   //     !!value &&
   //     (object.encoding === EncodingEnum.copy ||
@@ -43,29 +43,29 @@ export class EncoderValidator {
   //       object.encoding === EncodingEnum.nvidia)
   //   )
   // })
-  videoBitrate: number
+  videoBitrate: string
 
-  @IsNumber()
+  @IsString()
   @IsOptional()
   @IsNotEmpty({ message: 'width must be a number conforming to the specified constraints' })
-  @ValidateIf((object: EncoderValidator, value: number) => {
+  @ValidateIf((object: EncoderValidator, value: string) => {
     return (
       !!value &&
       (object.encoding === EncodingEnum.software || object.encoding === EncodingEnum.nvidia)
     )
   })
-  width: number
+  width: string
 
-  @IsNumber()
+  @IsString()
   @IsOptional()
   @IsNotEmpty({ message: 'height must be a number conforming to the specified constraints' })
-  @ValidateIf((object: EncoderValidator, value: number) => {
+  @ValidateIf((object: EncoderValidator, value: string) => {
     return (
       !!value &&
       (object.encoding === EncodingEnum.software || object.encoding === EncodingEnum.nvidia)
     )
   })
-  height: number
+  height: string
 
   @IsString()
   @IsNotEmpty({
